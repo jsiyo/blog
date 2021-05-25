@@ -6,7 +6,7 @@ const config = {
   ========================================= */
   title: `개인 블로그`,                      // Displayed in header
   description: `This is my blog`,     // Site description
-  maxWidth: "768px",                  // Max width of website
+  maxWidth: "1024px",                  // Max width of website
   enableAbout: false,                  // Enables about page
   siteUrl: `https://blog.jaysiyo.com/`, // For sitemap & RSS feed
   useScrollIndicator: true,           // Use scroll indicator on top of screen in posts
