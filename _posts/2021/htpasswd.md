@@ -10,6 +10,9 @@ Apache는 특정 디렉터리에 접근할 때 `HTTP basic authentication`을 �
 
 ```apache
 <Directory /var/www/html>
-
+    AuthType Basic
+    AuthName "Basic Authentication"
+    AuthUserFile C:\Users\JEON\laragon\usr\passwd
+    Require valid-user
 </Directory>
 ```
