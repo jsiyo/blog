@@ -5,4 +5,4 @@ tags: ['Tech']
 excerpt: htpasswd - basic authentication
 ---
 
-
+Apache는 특정 디렉터리에 접근할 때 HTTP basic authentication을 설정하여 접근 제한을 할 수 있다.
