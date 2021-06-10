@@ -43,7 +43,7 @@ Require valid-user 인증에 성공한 모든 사용자를 엑세스 허용
 .htaccess 파일의 설정으로 적용됨
 
 ## 참고
-[https://httpd.apache.org/docs/2.4/ko/programs/htpasswd.html](https://httpd.apache.org/docs/2.4/ko/programs/htpasswd.html)
+[https://httpd.apache.org/docs/2.4/ko/programs/htpasswd.html](https://httpd.apache.org/docs/2.4/ko/programs/htpasswd.html)  
 [https://developer.mozilla.org/ko/docs/Web/HTTP/Authentication](https://developer.mozilla.org/ko/docs/Web/HTTP/Authentication)
 
 
