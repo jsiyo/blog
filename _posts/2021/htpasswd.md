@@ -29,8 +29,9 @@ Basic ([mod_auth_basic](https://httpd.apache.org/docs/2.4/mod/mod_auth_basic.htm
 브라우저에서 제공하는 암호 대화 상자에 표시됨  
 > - **[AuthUserFile](https://httpd.apache.org/docs/2.4/ko/mod/mod_authn_file.html#authuserfile)**
 사용자 인증을 하기 위해 필요한 정보가 담긴 파일을 지정함  
-> - **[Require](https://httpd.apache.org/docs/2.4/ko/mod/mod_authz_core.html#require)**
-인증된 사용자가 설정에 의해 권한이 있는지 확인함
+> - **[Require](https://httpd.apache.org/docs/2.4/ko/mod/mod_authz_core.html#require)**  
+인증된 사용자가 설정에 의해 권한이 있는지 확인함  
+Require valid-user 인증에 성공한 모든 사용자를 엑세스 허용
 
 
 
