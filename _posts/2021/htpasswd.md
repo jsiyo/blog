@@ -25,7 +25,9 @@ Apache 웹 서버는 디렉터리에 **`HTTP Basic Authentication`** 을 설정�
 
 > AuthType
 - 인증 유형 설정을 설정   
-`Basic` ([mod_auth_basic](https://httpd.apache.org/docs/2.4/mod/mod_auth_basic.html)), `Digest` ([mod_auth_digest](https://httpd.apache.org/docs/2.4/ko/mod/mod_auth_digest.html))
+`Basic` ([mod_auth_basic](https://httpd.apache.org/docs/2.4/mod/mod_auth_basic.html)), `Digest` ([mod_auth_digest](https://httpd.apache.org/docs/2.4/ko/mod/mod_auth_digest.html))  
+> AuthName
+- 브라우저에서 제공하는 암호 대화 상자에 표시됨
 
 
 
