@@ -12,6 +12,10 @@ Apache 웹 서버는 디렉터리에 **`HTTP Basic Authentication`** 을 설정�
 사용하기 위해서는 [mod_auth_basic](https://httpd.apache.org/docs/2.4/mod/mod_auth_basic.html) 모듈이 필요함.
 
 ```apache
+htpasswd -c /etc/httpd/.htpasswd jaysiyo
+```
+
+```apache
 <Directory /var/www/html>
     AuthType Basic
     AuthName "Basic Authentication"
@@ -32,6 +36,14 @@ Basic ([mod_auth_basic](https://httpd.apache.org/docs/2.4/mod/mod_auth_basic.htm
 > - **[Require](https://httpd.apache.org/docs/2.4/ko/mod/mod_authz_core.html#require)**  
 인증된 사용자가 설정에 의해 권한이 있는지 확인함  
 Require valid-user 인증에 성공한 모든 사용자를 엑세스 허용
+
+## Create .htpasswd
+
+**htpasswd** 는 basic authentication
+
+```apache
+
+```
 
 
 
