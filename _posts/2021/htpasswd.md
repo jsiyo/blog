@@ -9,11 +9,14 @@ excerpt: htpasswd - basic authentication
 
 Apache 웹 서버는 디렉터리에 **`HTTP Basic Authentication`** 을 설정하여 사용자가 해당 디렉터리에 접근했을 때   
 간단한 인증 방식을 통하여 접근 제한을 할 수 있다.
+인증 유형에는 대표적으로 **Basic**, **Digest** 가 있는데 <U>Basic</U>에 대한 내용임.
 
-<U>htpasswd</U>를 사용하여 사용자 인증 정보가 담긴 파일 생성
 ```apache
 htpasswd -c /etc/httpd/.htpasswd jaysiyo
 ```
+> htpasswd
+
+
 
 ```apache
 <Directory /var/www/html>
