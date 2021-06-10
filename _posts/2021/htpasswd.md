@@ -15,7 +15,7 @@ Apache 웹 서버는 디렉터리에 **`HTTP Basic Authentication`** 을 설정�
 <Directory /var/www/html>
     AuthType Basic
     AuthName "Basic Authentication"
-    AuthUserFile C:\Users\JEON\laragon\usr\passwd
+    AuthUserFile /etc/httpd/.htpasswd
     Require valid-user
 </Directory>
 ```
@@ -26,7 +26,11 @@ Apache 웹 서버는 디렉터리에 **`HTTP Basic Authentication`** 을 설정�
 인증 유형을 설정함   
 Basic ([mod_auth_basic](https://httpd.apache.org/docs/2.4/mod/mod_auth_basic.html)), Digest ([mod_auth_digest](https://httpd.apache.org/docs/2.4/ko/mod/mod_auth_digest.html))
 > - **AuthName**  
-브라우저에서 제공하는 암호 대화 상자에 표시됨
+브라우저에서 제공하는 암호 대화 상자에 표시됨  
+> - **AuthUserFile**
+사용자 인증을 하기 위해 필요한 정보가 담긴 파일을 지정함
+
+
 
 
 
