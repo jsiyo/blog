@@ -5,7 +5,7 @@ tags: ['Tech']
 excerpt: htpasswd - basic authentication
 ---
 
-# Basic Authentication
+## Basic Authentication
 
 Apache 웹 서버는 디렉터리에 **`HTTP Basic Authentication`** 을 설정하여 사용자가 해당 디렉터리에 접근했을 때   
 간단한 인증 방식을 통하여 접근 제한을 할 수 있다.  
