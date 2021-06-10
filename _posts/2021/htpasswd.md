@@ -30,7 +30,7 @@ Basic ([mod_auth_basic](https://httpd.apache.org/docs/2.4/mod/mod_auth_basic.htm
 > - **[AuthUserFile](https://httpd.apache.org/docs/2.4/ko/mod/mod_authn_file.html#authuserfile)**
 사용자 인증을 하기 위해 필요한 정보가 담긴 파일을 지정함  
 > - **[Require](https://httpd.apache.org/docs/2.4/ko/mod/mod_authz_core.html#require)**
-인증 된 사용자가 설정에 의해 권한이 있는지 확인함
+인증된 사용자가 설정에 의해 권한이 있는지 확인함
 
 
 
