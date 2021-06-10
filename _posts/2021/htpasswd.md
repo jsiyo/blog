@@ -11,7 +11,7 @@ Apache 웹 서버는 디렉터리에 **`HTTP Basic Authentication`** 을 설정�
 인증 유형은 가장 기본인 <U>Basic</U> 으로 설정하였음.  
 - **Basic ([RFC 7617](https://datatracker.ietf.org/doc/html/rfc7617) base64-encoded credentials)**
 
---
+---
 
 ```apache
 htpasswd -c /etc/httpd/.htpasswd jaysiyo
