@@ -1,21 +1,21 @@
 ---
 title: Apache Basic Authentication
-date: 2021-05-25
+date: 2021-06-11
 tags: ['Tech']
 excerpt: htpasswd - basic authentication
 ---
 
 ## Basic Authentication
 Apache 웹 서버는 디렉터리에 **`HTTP Basic Authentication`** 을 설정하여 사용자가 해당 디렉터리에 접근했을 때   
-간단한 인증 방식을 통하여 접근 제한을 할 수 있다.  
-인증 유형에는 대표적으로 **Basic**, **Digest** 가 있는데 <U>Basic</U>에 대한 내용임.
+간단한 인증 방식을 통하여 접근 제한을 할 수 있다.
+
 
 ```apache
 htpasswd -c /etc/httpd/.htpasswd jaysiyo
 New password: 
 Re-type new password:
 ```
-> htpasswd 명령어를 통하여 사용자 인증에 필요한 파일 생성 및 사용자를 추가함.  
+> - htpasswd 명령어를 통하여 사용자 인증에 필요한 파일 생성 및 사용자를 추가함.  
 
 
 ```apache
