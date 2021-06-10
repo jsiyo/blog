@@ -20,10 +20,10 @@ Apache 웹 서버는 디렉터리에 **`HTTP Basic Authentication`** 을 설정�
 </Directory>
 ```
 
-- &lt;Directory /var/www/html&gt;  
-인증을 사용할 디렉터리 경로
+> &lt;Directory /var/www/html&gt;
+- 인증을 사용할 디렉터리 경로
+> AuthType
 
-- AuthType  
 
 
 
