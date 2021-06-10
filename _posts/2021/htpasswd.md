@@ -15,7 +15,8 @@ htpasswd -c /etc/httpd/.htpasswd jaysiyo
 New password: 
 Re-type new password:
 ```
-> htpasswd 명령어를 통하여 사용자 인증에 필요한 파일 생성 및 사용자를 추가함.
+> htpasswd 명령어를 통하여 사용자 인증에 필요한 파일 생성 및 사용자를 추가함.  
+
 
 ```apache
 <Directory /var/www/html>
