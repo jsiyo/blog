@@ -7,7 +7,8 @@ excerpt: htpasswd - basic authentication
 
 ## Basic Authentication
 Apache 웹 서버는 디렉터리에 **`HTTP Basic Authentication`** 을 설정하여 사용자가 해당 디렉터리에 접근했을 때   
-간단한 인증 방식을 통하여 접근 제한을 할 수 있다.
+간단한 인증 방식을 통하여 접근 제한을 할 수 있다.  
+- **Basic ([RFC 7617](https://datatracker.ietf.org/doc/html/rfc7617) base64-encoded credentials)**
 
 
 ```apache
@@ -15,7 +16,7 @@ htpasswd -c /etc/httpd/.htpasswd jaysiyo
 New password: 
 Re-type new password:
 ```
-> - htpasswd 명령어를 통하여 사용자 인증에 필요한 파일 생성 및 사용자를 추가함.  
+> htpasswd 명령어를 통하여 사용자 인증에 필요한 파일 생성 및 사용자를 추가함.  
 
 
 ```apache
