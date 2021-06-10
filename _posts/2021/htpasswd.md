@@ -39,7 +39,7 @@ Basic ([mod_auth_basic](https://httpd.apache.org/docs/2.4/mod/mod_auth_basic.htm
 > - **[Require](https://httpd.apache.org/docs/2.4/ko/mod/mod_authz_core.html#require)**  
 인증된 사용자가 설정에 의해 권한이 있는지 확인함  
 Require valid-user 인증에 성공한 모든 사용자를 엑세스 허용  
-> - [AllowOverride AuthConfig](https://httpd.apache.org/docs/current/ko/mod/core.html#allowoverride)
+> - [AllowOverride AuthConfig](https://httpd.apache.org/docs/current/ko/mod/core.html#allowoverride)  
 .htaccess 파일의 설정으로 적용됨
 
 ## 참고
