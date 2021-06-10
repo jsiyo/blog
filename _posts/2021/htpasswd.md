@@ -18,7 +18,6 @@ Re-type new password:
 ```
 > htpasswd 명령어를 통하여 사용자 인증에 필요한 파일 생성 및 사용자를 추가함.
 
-
 ```apache
 <Directory /var/www/html>
     AuthType Basic
@@ -44,8 +43,8 @@ Require valid-user 인증에 성공한 모든 사용자를 엑세스 허용
 > [AllowOverride AuthConfig](https://httpd.apache.org/docs/current/ko/mod/core.html#allowoverride)
 .htaccess 파일의 설정으로 적용됨
 
-
 ## 참고
+
 [https://httpd.apache.org/docs/2.4/ko/programs/htpasswd.html](https://httpd.apache.org/docs/2.4/ko/programs/htpasswd.html)
 
 
