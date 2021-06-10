@@ -16,7 +16,7 @@ htpasswd -c /etc/httpd/.htpasswd jaysiyo
 New password: 
 Re-type new password:
 ```
-> htpasswd 명령어를 통하여 사용자 인증에 필요한 파일 생성 및 사용자를 추가함
+> htpasswd 명령어를 통하여 사용자 인증에 필요한 파일 생성 및 사용자를 추가함.
 
 
 ```apache
@@ -40,7 +40,7 @@ Basic ([mod_auth_basic](https://httpd.apache.org/docs/2.4/mod/mod_auth_basic.htm
 > - **[Require](https://httpd.apache.org/docs/2.4/ko/mod/mod_authz_core.html#require)**  
 인증된 사용자가 설정에 의해 권한이 있는지 확인함  
 Require valid-user 인증에 성공한 모든 사용자를 엑세스 허용
->> AllowOverride AuthConfig  
+> AllowOverride AuthConfig  
 .htaccess 파일의 설정으로 적용이 됨
 
 
