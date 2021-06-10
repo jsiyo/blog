@@ -20,14 +20,14 @@ Apache 웹 서버는 디렉터리에 **`HTTP Basic Authentication`** 을 설정�
 </Directory>
 ```
 
-> - **&lt;Directory /var/www/html&gt;**
+> - **&lt;Directory /var/www/html&gt;**  
 인증을 사용할 디렉터리 경로
-> - **AuthType**  
+> - **[AuthType](https://httpd.apache.org/docs/2.4/ko/mod/mod_authn_core.html#authtype)**  
 인증 유형을 설정함   
 Basic ([mod_auth_basic](https://httpd.apache.org/docs/2.4/mod/mod_auth_basic.html)), Digest ([mod_auth_digest](https://httpd.apache.org/docs/2.4/ko/mod/mod_auth_digest.html))
-> - **AuthName**
+> - **[AuthName](https://httpd.apache.org/docs/2.4/ko/mod/mod_authn_core.html#authname)**
 브라우저에서 제공하는 암호 대화 상자에 표시됨  
-> - **AuthUserFile**
+> - **[AuthUserFile](https://httpd.apache.org/docs/2.4/ko/mod/mod_authn_file.html#authuserfile)**
 사용자 인증을 하기 위해 필요한 정보가 담긴 파일을 지정함
 
 
