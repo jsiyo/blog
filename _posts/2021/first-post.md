@@ -5,11 +5,9 @@ tags: ['Etc']
 excerpt: First Posting
 ---
 
-오랜만에 블로그 포스팅 하려고 마음을 먹고 열심히 작성해서 deploy를 하는 순간 빌드에 문제가 발생하였다..😭
-
-[**`netlify`**](https://www.netlify.com/)를 이용했기에 로그를 확인해 보았다.  
-빌드가 안되는 이유를 보니까 모듈이 구식이라...    
-손을 좀 봐야 하는 상황인 듯.  
+오랜만에 블로그 포스팅 하려고 마음을 먹고 작성해서 deploy를 하는 순간 빌드에 문제가 발생하였다..😭  
+[**`netlify`**](https://www.netlify.com/)의 deploy log를 확인 후  
+빌드가 안되는 이유를 찾아보니까 모듈이 구식이라 손을 좀 봐야 하는 상황인 듯.  
 그리고 `Total build minutes used` 라는 제한이 생겼다.  
 Payment method가 있는 거 보니 결제를 해야 하나보다.  
 일단은 무시하고 나중에 [**`github pages`**](https://pages.github.com/)로 이사를 가야겠다.
