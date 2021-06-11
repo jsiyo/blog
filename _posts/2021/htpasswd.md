@@ -1,5 +1,5 @@
 ---
-title: Apache Basic Authentication
+title: 아파치 웹 서버 사용자 인증
 date: 2021-06-11
 tags: ['Tech']
 excerpt: htpasswd - basic authentication
