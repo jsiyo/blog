@@ -22,6 +22,8 @@ excerpt: First Posting
 앞으로 얼마나 꾸준히 할 수 있을지는 모르겠지만  
 일단 리팩토링은 성공.🎉
 
+---
+
 ```php
 <?php
 printf('Hello, World!');
