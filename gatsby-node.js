@@ -53,7 +53,7 @@ exports.createPages = ({ actions, graphql }) => {
 
       const prev = getPrevAvailableNode(edges, i + 1)
       const next = getNextAvailableNode(edges, i - 1)
-
+      console.log(edges);
       if (node.fields.slug !== "/__do-not-remove/") {
         createPage({
           path: node.fields.slug,
