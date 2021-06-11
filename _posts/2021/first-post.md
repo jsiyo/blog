@@ -5,6 +5,7 @@ tags: ['Etc']
 excerpt: First Posting
 ---
 
+# Refactoring
 오랜만에 블로그 포스팅 하려고 마음을 먹고 작성해서 deploy를 하는 순간 빌드에 문제가 발생하였다..😭  
 [**`netlify`**](https://www.netlify.com/)의 deploy log를 확인 후 빌드가 안되는 이유를 찾아보니까  
 모듈이 구식이라 손을 좀 봐야 하는 상황인 듯.
