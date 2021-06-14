@@ -313,7 +313,7 @@ export const postQuery = graphql`
       }
       frontmatter {
         title
-        date(formatString: "YYYY.MM.DD")
+        date(formatString: "MM/DD/YYYY")
         tags
       }
     }
