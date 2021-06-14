@@ -1,7 +1,7 @@
 ---
 title: Chrome 업데이트 Schemeful Same-Site을 대응하자.
 date: 2021-02-19
-tags: ['Tech']
+tags: [Tech]
 excerpt: Schemeful Same-Site
 ---
 
