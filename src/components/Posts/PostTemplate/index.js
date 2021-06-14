@@ -280,22 +280,6 @@ class PostTemplate extends React.Component {
           <>
             <ShareButtons location={this.state.location} />
             <LinkEdgePosts pageContext={this.props.pageContext} />          
-
-            {comments.facebook.enabled && (
-              <FacebookComments
-                location={this.state.location}
-                reload={this.registerFacebookComments}
-              />
-            )}
-            {comments.disqus.enabled && comments.disqus.shortName && (
-              <DisqusComments
-                shortName={comments.disqus.shortName}
-                location={this.state.location}
-              />
-            )}
-            {comments.utterances.enabled && comments.utterances.repoUrl && (
-              <UtterancesComments innerRef={this.utterancesRef} />
-            )}
           </>
         )}
       </Layout>
