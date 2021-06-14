@@ -60,7 +60,7 @@ exports.createPages = ({ actions, graphql }) => {
           component: postTemplate,
           context: {
             slug: node.fields.slug,
-            //next,
+            next,
             //prev,
           },
         })
