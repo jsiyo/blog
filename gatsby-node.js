@@ -16,7 +16,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
-
+  console.log(1);
+  console.log(createPage);  
   const postTemplate = path.resolve(
     "src/components/Posts/PostTemplate/index.js"
   )

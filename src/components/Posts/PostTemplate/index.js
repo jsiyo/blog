@@ -184,8 +184,7 @@ class PostTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
     const isAboutPage = post.fields.slug.includes("/about")
-    console.log(this.props);
-    console.log(post);    
+
     // Customize markdown component
     const mdxComponents = {
       "ul.li": ({ children }) => {
