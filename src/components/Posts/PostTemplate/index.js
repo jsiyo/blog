@@ -32,6 +32,7 @@ import {
   Collapsable,
   U,
 } from "../../MdxComponents"
+import NotFound from '../../../pages/404'
 
 class PostTemplate extends React.Component {
   constructor(props) {
@@ -184,22 +185,9 @@ class PostTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
     const isAboutPage = post.fields.slug.includes("/about")
-
-    {isAboutPage && (
-      <>
-        <Layout showTitle={true}>
-        <SEO title="404: Not found" />
-        <h1 style={{ textAlign: "center", fontSize: "5rem", color: "#bbb" }}>
-          (·_·)
-        </h1>
-        <h1 style={{ textAlign: "center" }}>NOT FOUND</h1>
-        <p style={{ textAlign: "center" }}>
-          You just hit a route that does not exist... the sadness..
-        </p>
-      </Layout>
-      </>
-    )}
-
+    if (isAboutPage == true) {
+      return <NotFound />;
+    }
     // Customize markdown component
     const mdxComponents = {
       "ul.li": ({ children }) => {
