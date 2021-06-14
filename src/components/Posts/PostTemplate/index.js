@@ -43,7 +43,7 @@ class PostTemplate extends React.Component {
       texts: [],
     }
   }
-  console.log(this);
+  
   componentDidMount() {
     this.setState({ location: window.location.href })
     if (isMobile) {
@@ -185,7 +185,7 @@ class PostTemplate extends React.Component {
     const post = this.props.data.mdx
     const isAboutPage = post.fields.slug.includes("/about")
     if (isAboutPage == true) {
-      
+      console.log(this);
     }
     // Customize markdown component
     const mdxComponents = {
