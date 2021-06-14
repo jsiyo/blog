@@ -23,7 +23,7 @@ import { theme } from "../../Shared/styles-global"
 import LinkEdgePosts from "../../LinkEdgePosts"
 import ShareButtons from "../../ShareButtons"
 import ChevronRight from "../../../../_assets/icons/chevron-right.svg"
-import { NotFoundPage } from "../../pages/404"
+import { NotFoundPage } from "../../../pages/404"
 import {
   Primary,
   Danger,
