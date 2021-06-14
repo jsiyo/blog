@@ -23,6 +23,7 @@ import { theme } from "../../Shared/styles-global"
 import LinkEdgePosts from "../../LinkEdgePosts"
 import ShareButtons from "../../ShareButtons"
 import ChevronRight from "../../../../_assets/icons/chevron-right.svg"
+import { NotFoundPage } from "../../pages/404"
 import {
   Primary,
   Danger,
@@ -185,7 +186,7 @@ class PostTemplate extends React.Component {
     const post = this.props.data.mdx
     const isAboutPage = post.fields.slug.includes("/about")
     if (isAboutPage == true) {
-      console.log(this);
+      console.log(NotFoundPage);
     }
     // Customize markdown component
     const mdxComponents = {
