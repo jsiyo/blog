@@ -1,6 +1,6 @@
 {
   "name": "gatsby-blog-mdx",
-  "author": "siyo <mail.jaysiyo@gmail.com>",
+  "author": "Ellis Min <ellismin.dev@gmail.com>",
   "license": "MIT",
   "private": true,
   "description": "A simple starter for blog posts built with Gatsby js",
@@ -73,9 +73,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaysiyo/blog"
+    "url": "https://github.com/EllisMin/gatsby-blog-mdx"
   },
   "bugs": {
-    "url": "https://github.com/jaysiyo/blog/issues"
+    "url": "https://github.com/EllisMin/gatsby-blog-mdx/issues"
   }
 }
