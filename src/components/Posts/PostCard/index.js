@@ -11,7 +11,7 @@ const PostCard = ({ id, title, date, path, excerpt, timeToRead }) => {
   return (
     <>
       <Link to={path}>
-        <StyledPostCard key={id} className="profile-home">
+        <StyledPostCard key={id}>
           <h3>{title}</h3>
           {config.showTimeToRead && (
             <span>
@@ -38,7 +38,7 @@ const StyledPostCard = styled.div`
   transition: none;
 
   h3 {
-    font-weight: bold;
+    font-weight: 500;
   }
 
   &:hover {

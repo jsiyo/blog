@@ -7,8 +7,14 @@ import styled from "styled-components"
 const ProfileLocation = () => {
   return location ? (
     <StyledTextsLocation className="profile-texts-location">
+      <a
+        href={`https://www.google.com/maps/search/${location}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <FontAwesomeIcon className="icon-fa icon-location" icon={faMapMarkerAlt} />
         {location}
+      </a>
     </StyledTextsLocation>
   ) : null
 }

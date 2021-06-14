@@ -8,9 +8,7 @@ import {
 import "./styles.scss"
 
 const LinkEdgePosts = ({ pageContext }) => {
-  console.log(pageContext);
   const { prev, next } = pageContext
-  console.log(next);
   return prev || next ? (
     <ul className="link-edge-posts">
       <li>

@@ -12,7 +12,7 @@ const ProfileTexts = ({ home }) => {
       {home ? (
         <StyledProfileTextsHome className="profile-texts">
           <AboutLink />
-          <p style={{fontSize: "14px"}}>{profileDescription}</p>
+          <p>{profileDescription}</p>
           <ProfileLocation />
           <MediaLinks />
         </StyledProfileTextsHome>
@@ -20,7 +20,7 @@ const ProfileTexts = ({ home }) => {
         <StyledProfileTexts className="profile-texts">
           <h4>WRITTEN BY</h4>
           <AboutLink />
-          <p style={{fontSize: "14px"}}>{profileDescription}</p>
+          <p>{profileDescription}</p>
           <ProfileLocation />
           <MediaLinks />
         </StyledProfileTexts>
@@ -37,7 +37,7 @@ const StyledProfileTexts = styled.div`
   padding: 1rem;
   h4 {
     margin: 0.3rem 0;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   p {
     margin: 0.5rem 0;

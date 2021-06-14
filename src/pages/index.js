@@ -9,7 +9,7 @@ const loadsPer = 15
 const IndexPage = ({ data }) => {
   const [loaded, setLoaded] = useState(undefined)
   const posts = data.allMdx.edges
-  console.log(posts);
+
   useEffect(() => {
     const curLoad = sessionStorage.getItem("curLoad") || loadsPer
     setLoaded(parseInt(curLoad))
@@ -65,7 +65,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "YYYY.MM.DD")
+            date(formatString: "MM/DD/YYYY")
             title
             tags
             excerpt

@@ -12,8 +12,10 @@ const AboutLink = () => {
             <Link to="/about">{author}</Link>
           </h2>
         </StyledMainCardName>
-      ) : (        
-          <h2>{author}</h2>        
+      ) : (
+        <StyledMainCardNameAboutDisabled>
+          <h2>{author}</h2>
+        </StyledMainCardNameAboutDisabled>
       )}
     </>
   )

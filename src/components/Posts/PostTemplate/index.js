@@ -276,9 +276,29 @@ class PostTemplate extends React.Component {
           </MDXProvider>
         </StyledHTML>
 
-        {!isAboutPage && (          
-          <>           
-            <LinkEdgePosts pageContext={this.props.pageContext} />          
+        {!isAboutPage && (
+          <>
+            <ShareButtons location={this.state.location} />
+            <LinkEdgePosts pageContext={this.props.pageContext} />
+            <Hr widthInPercent="97" verticalMargin="0.8rem" />
+            <Profile />
+            <Hr widthInPercent="97" verticalMargin="0.8rem" />
+
+            {comments.facebook.enabled && (
+              <FacebookComments
+                location={this.state.location}
+                reload={this.registerFacebookComments}
+              />
+            )}
+            {comments.disqus.enabled && comments.disqus.shortName && (
+              <DisqusComments
+                shortName={comments.disqus.shortName}
+                location={this.state.location}
+              />
+            )}
+            {comments.utterances.enabled && comments.utterances.repoUrl && (
+              <UtterancesComments innerRef={this.utterancesRef} />
+            )}
           </>
         )}
       </Layout>
@@ -342,7 +362,7 @@ const StyledHTML = styled.div`
 
   p {
     margin-top: 0.9rem;
-    line-height: 1.7;
+    line-height: 1.4;
   }
 
   blockquote {

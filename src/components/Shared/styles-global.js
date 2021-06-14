@@ -141,9 +141,11 @@ export const GlobalStyles = createGlobalStyle`
   .text-left {
     text-align: left;
   }
-  
-  .main-header {
 
+  .main-header {
+    border-bottom: 1px solid ${() => setThemeVars("#dbdbdb", "#2d2d2d")};
+    background: ${() =>
+      setThemeVars(theme.headerColorLight, theme.headerColorDark)};
   }
 
   .sub-main {
@@ -374,11 +376,8 @@ export const GlobalStyles = createGlobalStyle`
       background-clip: padding-box;
     }
 
-  .gatsby-resp-image-background-image {
-    background-image: none !important;    
-  }
-
   table {
+    display: block;
     font-family: sans-serif;
     margin: 0.5rem 0;
     width: 100%;
