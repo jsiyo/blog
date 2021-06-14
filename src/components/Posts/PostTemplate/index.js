@@ -277,6 +277,7 @@ class PostTemplate extends React.Component {
         </StyledHTML>
 
         {!isAboutPage && (
+          console.log(this.props);
           <>           
             <LinkEdgePosts pageContext={this.props.pageContext} />          
           </>
