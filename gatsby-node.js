@@ -85,7 +85,7 @@ const getPrevAvailableNode = (edges, index) => {
 const getNextAvailableNode = (edges, index) => {
   let retVal
 
-  for (let i = index; i > 0; i--) {
+  for (let i = index; i > edges.length - 1; i--) {
     if (!skipNode(edges[i].node)) {
       retVal = edges[i].node
       break
