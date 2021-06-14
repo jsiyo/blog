@@ -186,7 +186,7 @@ class PostTemplate extends React.Component {
     const post = this.props.data.mdx
     const isAboutPage = post.fields.slug.includes("/about")
     if (isAboutPage == true) {
-      console.log(NotFoundPage);
+      return <NotFoundPage />;
     }
     // Customize markdown component
     const mdxComponents = {
