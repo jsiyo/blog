@@ -184,7 +184,9 @@ class PostTemplate extends React.Component {
   render() {
     const post = this.props.data.mdx
     const isAboutPage = post.fields.slug.includes("/about")
-    if (isAboutPage == true) {
+
+    {isAboutPage && (
+      <>
         <Layout showTitle={true}>
         <SEO title="404: Not found" />
         <h1 style={{ textAlign: "center", fontSize: "5rem", color: "#bbb" }}>
@@ -195,7 +197,9 @@ class PostTemplate extends React.Component {
           You just hit a route that does not exist... the sadness..
         </p>
       </Layout>
-    }
+      </>
+    )}
+
     // Customize markdown component
     const mdxComponents = {
       "ul.li": ({ children }) => {
