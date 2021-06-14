@@ -72,7 +72,7 @@ exports.createPages = ({ actions, graphql }) => {
 // Get next available prev node that's not about, draft, and dummy post
 const getPrevAvailableNode = (edges, index) => {
   let retVal
-
+  console.log(1);
   for (let i = index; i < edges.length - 1; i++) {
     if (!skipNode(edges[i].node)) {
       retVal = edges[i].node
@@ -85,7 +85,7 @@ const getPrevAvailableNode = (edges, index) => {
 const getNextAvailableNode = (edges, index) => {
   let retVal
 
-  for (let i = index; i > 5; i--) {
+  for (let i = index; i > 0; i--) {
     if (!skipNode(edges[i].node)) {
       retVal = edges[i].node
       break
