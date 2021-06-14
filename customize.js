@@ -4,18 +4,18 @@
 const config = {
   /* Site
   ========================================= */
-  title: `개인 블로그`,                      // Displayed in header
+  title: `gatsby-blog-mdx`,          // Displayed in header
   description: `This is my blog`,     // Site description
-  maxWidth: "1024px",                  // Max width of website
-  enableAbout: false,                  // Enables about page
-  siteUrl: `https://blog.jaysiyo.com/`, // For sitemap & RSS feed
+  maxWidth: "768px",                  // Max width of website
+  enableAbout: true,                  // Enables about page
+  siteUrl: `https://yourDomain.com/`, // For sitemap & RSS feed
   useScrollIndicator: true,           // Use scroll indicator on top of screen in posts
 
   /* Profile
   ========================================= */
-  author: `개인 블로그`,                             // Name shows on profile
-  profileDescription: "Jeon",   // Shows under author name
-  profileImageName: `profile-pic.jpg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
+  author: `Author Name`,                             // Name shows on profile
+  profileDescription: "{Edit me in customize.js}",   // Shows under author name
+  profileImageName: `profile.jpeg`,                  // Place profile.jpg/.jpeg/.png in _assets folder
   location: "",                                      // Location under profileDescription. "" --> disabled
   footerLink: "",                                    // Link to page when you click footer name
 
@@ -25,7 +25,7 @@ const config = {
   ========================================= */
   socialMediaLinks: {
     email:     { emailAddress: "", showHeaderIcon: true },
-    github:    { accountName: "jaysiyo", showHeaderIcon: true },
+    github:    { accountName: "", showHeaderIcon: true },
     facebook:  { accountName: "", showHeaderIcon: false },
     instagram: { accountName: "", showHeaderIcon: false },
     twitter:   { accountName: "", showHeaderIcon: false },
