@@ -108,6 +108,6 @@ const isDraft = node => {
 }
 
 const isDummy = node => {
-  //return node.frontmatter.tags && node.frontmatter.tags.includes("___dummy*")
+  return node.frontmatter.tags && node.frontmatter.tags.includes("___dummy*")
   return false;
 }
