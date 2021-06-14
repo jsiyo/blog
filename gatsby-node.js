@@ -55,7 +55,6 @@ exports.createPages = ({ actions, graphql }) => {
       const next = getNextAvailableNode(edges, i - 1)
       
       if (node.fields.slug !== "/__do-not-remove/") {
-        console.log(1);
         createPage({
           path: node.fields.slug,
           component: postTemplate,
