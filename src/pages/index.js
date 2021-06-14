@@ -9,7 +9,7 @@ const loadsPer = 15
 const IndexPage = ({ data }) => {
   const [loaded, setLoaded] = useState(undefined)
   const posts = data.allMdx.edges
-
+  console.log(posts);
   useEffect(() => {
     const curLoad = sessionStorage.getItem("curLoad") || loadsPer
     setLoaded(parseInt(curLoad))

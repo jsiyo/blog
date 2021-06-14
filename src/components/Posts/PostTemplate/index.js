@@ -182,7 +182,6 @@ class PostTemplate extends React.Component {
   }
 
   render() {
-    console.log(this.props);
     const post = this.props.data.mdx
     const isAboutPage = post.fields.slug.includes("/about")
 
