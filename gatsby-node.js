@@ -41,6 +41,7 @@ exports.createPages = ({ actions, graphql }) => {
       }
     }
   `).then(res => {
+    console.log(res);
     if (res.errors) {
       return Promise.reject(res.errors)
     }
