@@ -277,8 +277,7 @@ class PostTemplate extends React.Component {
         </StyledHTML>
 
         {!isAboutPage && (
-          <>
-            <ShareButtons location={this.state.location} />
+          <>           
             <LinkEdgePosts pageContext={this.props.pageContext} />          
           </>
         )}
